@@ -1,0 +1,17 @@
+Jaccard similarity scores between single and bigram words in Documents:
+'dog' and 'dog food' is: 0.5
+'favorite' and 'julie favorite' is: 1.0
+'great' and 'great friend' is: 1.0
+'the' and 'clifford the' is: 1.0
+'dog' and 'dog great' is: 0.5
+'great' and 'dog great' is: 1.0
+'red' and 'red dog' is: 1.0
+'dog' and 'red dog' is: 0.5
+'the' and 'the big' is: 1.0
+'big' and 'the big' is: 1.0
+'favorite' and 'favorite animal' is: 1.0
+'animal' and 'favorite animal' is: 1.0
+'animal' and 'animal dog' is: 1.0
+'dog' and 'animal dog' is: 0.5
+'big' and 'big red' is: 1.0
+'red' and 'big red' is: 1.0

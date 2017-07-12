@@ -1,0 +1,15 @@
+apply plugin: 'scala'
+
+buildscript{
+  repositories{
+     mavenCentral()
+  }
+}
+repositories{
+  mavenLocal()
+  mavenCentral()
+}
+
+dependencies{
+  compile 'org.apache.spark:spark-core_2.11:2.0.1'
+}
