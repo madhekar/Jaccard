@@ -8,5 +8,5 @@ steps to execute:
 2. build project with gradle:
      gradle clean build
 3. execute spark-submit as:
-     park-submit --class com.similarity.jaccard.SparkJaccard  --master local[2] build/libs/jaccard.jar "./data/" "./out/"
+     spark-submit --class com.similarity.jaccard.SparkJaccard  --master local[2] build/libs/jaccard.jar "./data/" "./out/"
 4. Jaccard_scores.txt file should be created with scores between single words and bigram words
